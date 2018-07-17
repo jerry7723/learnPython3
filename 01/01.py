@@ -273,4 +273,32 @@ dictionary
 # print(list)
 # 内置方法 dir(list)
 
+# tuple = ('a', 1, True, [1, 2, 3])
+# print(tuple[0:2])
+# print(tuple[2])
+# print(tuple * 3)  # 输出多次
+# ('a', 1, True, 'a', 1, True, 'a', 1, True)
+
+# string list tuple 都属于序列，有index for in 循环
+
+# 集合 不能重复
+# set1 = {'a', 'b', 'c', 'c'}
+# print(set1)
+# {'b', 'a', 'c'}
+# 成员运算符 in
+# if 'a' in set1:
+#     print('in')
+# else:
+#     print('not in')
+
+# set2 = {'d', 'e', 'f'}
+#  - | & ^
+
+# print(set1 - set2)
+# print(set1 | set2)
+# print(set1 & set2)
+# print(set1 ^ set2)
+
+# 字典dict
+
 
